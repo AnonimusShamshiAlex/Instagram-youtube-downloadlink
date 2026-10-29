@@ -133,7 +133,7 @@ async def handle_url(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     """Запуск бота."""
     # ЗАМЕНИТЕ НА ВАШ ТОКЕН
-    TOKEN = "9179792040:AAEdoAawKpNrl6bNwbtMayvW9HgXvzMDttg"
+    TOKEN = "YOU_TOKENBOT"
 
     # Увеличенные таймауты специально для отправки медиафайлов
     custom_request = HTTPXRequest(
